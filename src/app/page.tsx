@@ -25,7 +25,8 @@ export default function Home() {
               <a
                 href="https://www.linkedin.com/in/tri-pham-09b470125/"
                 target="_blank"
-                className={styles.linkedin}>
+                className={styles.linkedin}
+              >
                 <Image
                   src="/linkedin.svg"
                   className={styles.socialNavImg}
@@ -38,7 +39,8 @@ export default function Home() {
               <a
                 href="https://github.com/phamtrantri?tab=repositories"
                 target="_blank"
-                className={styles.github}>
+                className={styles.github}
+              >
                 <Image
                   src="/github.svg"
                   className={styles.socialNavImg}
