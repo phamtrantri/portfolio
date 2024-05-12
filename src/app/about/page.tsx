@@ -36,9 +36,9 @@ export default function About() {
       </p>
       <div className={styles.subHeader}>Goals</div>
       <p className={styles.content}>
-        I'm passionate about building software that scales to serve thousands or millions of users.
-        For this project, I aim to apply the best practices I've learned from working at startups,
-        on freelance projects, and in enterprise settings.
+        I&apos;m passionate about building software that scales to serve thousands or millions of
+        users. For this project, I aim to apply the best practices I&apos;ve learned from working at
+        startups, on freelance projects, and in enterprise settings.
         <br />
         <br />
         I realize that some of these practices might be overkill for this project, but my main goal
@@ -46,7 +46,7 @@ export default function About() {
         own projects.
         <br />
         <br />
-        I'll also create some fun mini-projects to demonstrate real-world scenarios I've
+        I&apos;ll also create some fun mini-projects to demonstrate real-world scenarios I&apos;ve
         encountered. Ultimately, I hope you can learn something from this project, and I welcome
         your feedback on my designs.
       </p>

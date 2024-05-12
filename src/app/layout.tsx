@@ -35,7 +35,8 @@ export default function RootLayout({
               <Link
                 href="https://github.com/phamtrantri/portfolio"
                 target="_blank"
-                className={styles.navItem}>
+                className={styles.navItem}
+              >
                 <Image
                   src="/github.svg"
                   className={styles.navBarImg}

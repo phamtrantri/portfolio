@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.introduction}>
           <div>
             <p>
-              <span>Hey, I'm Tri.</span> I'm a software engineer focusing on Frontend.
+              <span>Hey, I&apos;m Tri.</span> I&apos;m a software engineer focusing on Frontend.
             </p>
             <nav className={styles.socialNav}>
               <a
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </article>
       {sections.map(({ title, articles }) => (
-        <Section title={title} articles={articles} />
+        <Section key={title} title={title} articles={articles} />
       ))}
     </>
   );
