@@ -6,7 +6,13 @@ export default function About() {
     <div className={styles.container}>
       <header className={styles.header}>
         <h1 className={styles.title}>More about me</h1>
-        <Image src="/avatar_2.svg" width={44} height={44} alt={'logo'} />
+        <Image
+          src="/avatar_2.svg"
+          width={44}
+          height={44}
+          alt={'logo'}
+          className={styles.aboutLogo}
+        />
       </header>
       <p className={styles.content}>
         I have 7 years of experience working with Javascript, Typescript, React, and Redux, along
