@@ -1,0 +1,9 @@
+.sectionTitle {
+  font-size: 1.1rem;
+  color: #eef5fc;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  width: 100%;
+  border-bottom: 1px solid #eef5fc;
+}
