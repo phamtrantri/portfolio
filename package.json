@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cd ./docker/dev && docker compose up",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "format": "pnpm exec prettier . --write --config .prettierrc",
-    "prepare": "husky"
+    "prepare": "husky",
+    "ts-check": "tsc"
   },
   "dependencies": {
     "next": "14.2.3",

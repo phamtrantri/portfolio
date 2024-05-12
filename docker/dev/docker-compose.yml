@@ -1,0 +1,12 @@
+services:
+  next-porfolio:
+    build:
+      context: ../../
+      dockerfile: docker/dev/Dockerfile
+    image: next-porfolio
+    ports:
+      - '3000:3000'
+    volumes:
+      - ../../:/app
+    environment:
+      - NODE_ENV=development
