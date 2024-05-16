@@ -32,7 +32,7 @@ jobs:
           CI: true
 
       - name: TS check
-        run: pnpm run type-check
+        run: pnpm run ts-check
         env:
           CI: true
 
