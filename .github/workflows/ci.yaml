@@ -1,0 +1,49 @@
+name: Portfolio CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  build:
+    if: startsWith(github.head_ref, 'feature/')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Verify branch name
+        run: |
+          if [[ ! ${{ github.head_ref }} =~ ^feature/ ]]; then
+            echo "Branch name must start with 'feature/'"
+            exit 1
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install -g pnpm && pnpm install
+
+      - name: Lint check
+        run: pnpm run lint
+        env:
+          CI: true
+
+      - name: TS check
+        run: pnpm run ts-check
+        env:
+          CI: true
+
+      # - name: Run unit tests
+      #   run: pnpm run test
+      #   env:
+      #     CI: true
