@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "cd ./docker/dev && docker compose up",
     "build": "next build",
-    "start": "next start",
+    "start:prod": "cd ./docker/prod && docker compose up",
     "lint": "next lint",
     "format": "pnpm exec prettier . --write --config .prettierrc",
     "prepare": "husky",
     "ts-check": "tsc",
-    "test": "jest --silent"
+    "test": "jest --silent",
+    "destroy:dev": "cd ./docker/dev && docker compose down",
+    "destroy:prod": "cd ./docker/prod && docker compose down"
   },
   "dependencies": {
     "@types/jest": "^29.5.12",

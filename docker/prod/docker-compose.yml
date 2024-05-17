@@ -1,0 +1,20 @@
+services:
+  web-service:
+    build:
+      context: ../../
+      dockerfile: docker/prod/Dockerfile
+    image: web-service
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: production
+    restart: always
+    
+    # Services connected to the same network can communicate with each other using their service names as hostnames. 
+    #For example, if you have a database service and a web service on the same network, 
+    #the web service can connect to the database service using its name.
+    networks:
+      - webnet
+
+networks:
+  webnet:
