@@ -44,6 +44,6 @@ jobs:
           CI: true
 
       - name: Unit tests check
-        run: pnpm test --coverage=false
+        run: pnpm test -- --coverage=false
         env:
           CI: true
