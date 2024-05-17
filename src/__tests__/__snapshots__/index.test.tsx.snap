@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app/page.tsx should render correctly 1`] = `
+<div>
+  <article
+    class="profileWrapper"
+  >
+    <div
+      class="imgWrapper"
+    >
+      <img
+        alt="Logo"
+        class="avatar"
+        data-nimg="1"
+        decoding="async"
+        height="142"
+        loading="lazy"
+        src="/avatar_2.svg"
+        style="color: transparent;"
+        width="142"
+      />
+    </div>
+    <div
+      class="introduction"
+    >
+      <div>
+        <p>
+          <span>
+            Hey, I'm Tri.
+          </span>
+           I'm a software engineer focusing on Frontend.
+        </p>
+        <nav
+          class="socialNav"
+        >
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/in/tri-pham-09b470125/"
+            target="_blank"
+          >
+            <img
+              alt="Linkedin"
+              class="socialNavImg"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/linkedin.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <span>
+              Linkedin
+            </span>
+          </a>
+          <a
+            class="github"
+            href="https://github.com/phamtrantri?tab=repositories"
+            target="_blank"
+          >
+            <img
+              alt="Github"
+              class="socialNavImg"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/github.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <span>
+              Github
+            </span>
+          </a>
+          <a
+            class="gmail"
+            href="mailto:phamtrantri@gmail.com"
+          >
+            <img
+              alt="Gmail"
+              class="socialNavImg"
+              data-nimg="1"
+              decoding="async"
+              height="24"
+              loading="lazy"
+              src="/gmail.svg"
+              style="color: transparent;"
+              width="24"
+            />
+            <span
+              id="gmailText"
+            >
+              Gmail
+            </span>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </article>
+  <section>
+    <p
+      class="sectionTitle"
+    >
+      WORK EXPERIENCE
+    </p>
+    <article
+      class="sectionBody undefined"
+    >
+      <div
+        class="sectionWrapper"
+      >
+        <a
+          class="sectionHeader"
+          href="https://www.linkedin.com/company/shopee/?originalSubdomain=sg"
+          target="_blank"
+        >
+          Shopee | SeaMoney - Digital bank
+        </a>
+        <span
+          class="sectionDate"
+        >
+          May 2022 - Now
+        </span>
+      </div>
+      <span
+        class="position"
+      >
+        Senior Software Engineer - Singapore
+      </span>
+      <p
+        class="sectionDescription"
+      >
+        Building a digital banking app (MariBank) using React, React Native, Typescript, Redux, and Zustand for the Singapore market.
+        <br />
+        <br />
+        PIC for Investment module, managing 2-3 engineers, estimating, planning, designing, developing and reviewing. Investment product go live and become a hit in Singapore market. Nearly 50% of CASA users have the investment product.
+        <br />
+        <br />
+        Working with Thales, Mastercard, and Google Pay team to implement and integrate Push Provisioning feature for Credit Card.
+        <br />
+        <br />
+        Product:
+         
+        <a
+          href="https://www.maribank.sg"
+          target="_blank"
+        >
+          https://www.maribank.sg
+        </a>
+      </p>
+    </article>
+    <article
+      class="sectionBody undefined"
+    >
+      <div
+        class="sectionWrapper"
+      >
+        <a
+          class="sectionHeader"
+          href="https://www.skedulo.com"
+          target="_blank"
+        >
+          Skedulo
+        </a>
+        <span
+          class="sectionDate"
+        >
+          Aug 2021 - Apr 2022
+        </span>
+      </div>
+      <span
+        class="position"
+      >
+        Full-stack Software Engineer - Ho Chi Minh city
+      </span>
+      <p
+        class="sectionDescription"
+      >
+        Working as a full-stack engineer in a packaging project that supports users to package all the configurations (database schemas, data records, tenant configurations) from one tenant to another tenant.
+        <br />
+        <br />
+        Using React.js, Node.js, Tsoa, Typescript, Docker, Terraform, AWS.
+        <br />
+        <br />
+        My responsibilities are:
+        <br />
+        Take part in the discovery, planning, designing, and coding phases. 
+        <br />
+        Take part in setting up project skeleton (frontend, backend), and infrastructure (AWS, Docker, Terraform). 
+        <br />
+        Working with the infrastructure team to modify, deploy, and project. 
+        <br />
+        Working with the product owner to discuss, and clarify business requirements. Working with other teams to clarify the business logic of the to-be packaged configurations.
+        <br />
+        <br />
+        Product:
+         
+        <a
+          href="https://www.skedulo.com"
+          target="_blank"
+        >
+          https://www.skedulo.com
+        </a>
+      </p>
+    </article>
+    <article
+      class="sectionBody undefined"
+    >
+      <div
+        class="sectionWrapper"
+      >
+        <span
+          class="sectionHeader"
+        >
+          T-REX Exchange
+        </span>
+        <span
+          class="sectionDate"
+        >
+          Jun 2022 - Aug 2021
+        </span>
+      </div>
+      <span
+        class="position"
+      >
+        Full-stack Software Engineer - Ho Chi Minh city
+      </span>
+      <p
+        class="sectionDescription"
+      >
+        Worked on a cryptocurrency exchange using JSP, Java Spring, MySQL, Redis, Active MQ, React.js, and Redux.
+        <br />
+        <br />
+        Designed DB schema, and collaborated with different teams for new features.
+        <br />
+        <br />
+        Optimized web performance by applying code splitting, reducing blocking resources, minification, CDN to increase Google page speed score by 60%.
+        <br />
+        <br />
+        Prevented various kind of attacks (XSS, DDOS, SQL-injection).
+      </p>
+    </article>
+    <article
+      class="sectionBody lastItem"
+    >
+      <div
+        class="sectionWrapper"
+      >
+        <span
+          class="sectionHeader"
+        >
+          iLEAN Solutions
+        </span>
+        <span
+          class="sectionDate"
+        >
+          Jul 2018 - Jan 2020
+        </span>
+      </div>
+      <span
+        class="position"
+      >
+        Full-stack Software Engineer - Ho Chi Minh city
+      </span>
+      <p
+        class="sectionDescription"
+      >
+        Worked on Zenbox and Toptrade apps using React, Redux, Golang, Node.js, PostgreSQL.
+      </p>
+    </article>
+  </section>
+  <section>
+    <p
+      class="sectionTitle"
+    >
+      EDUCATION
+    </p>
+    <article
+      class="sectionBody lastItem"
+    >
+      <div
+        class="sectionWrapper"
+      >
+        <a
+          class="sectionHeader"
+          href="https://oisp.hcmut.edu.vn/en"
+          target="_blank"
+        >
+          Ho Chi Minh University of Technology
+        </a>
+        <span
+          class="sectionDate"
+        >
+          Sep 2013 - Apr 2018
+        </span>
+      </div>
+      <span
+        class="position"
+      >
+        Bachelor’s Degree in Computer Science
+      </span>
+      <p
+        class="sectionDescription"
+      />
+    </article>
+  </section>
+  <section>
+    <p
+      class="sectionTitle"
+    >
+      HONORS & AWARDS
+    </p>
+    <article
+      class="sectionBody lastItem"
+    >
+      <div
+        class="sectionWrapper"
+      >
+        <a
+          class="sectionHeader"
+          href="https://acb.com.vn/en"
+          target="_blank"
+        >
+          Asia Commercial Joint Stock Bank
+        </a>
+        <span
+          class="sectionDate"
+        >
+          2019
+        </span>
+      </div>
+      <span
+        class="position"
+      />
+      <p
+        class="sectionDescription"
+      >
+        ACB Hackathon 2019 Potential Prize for creating a savingsguaranteed app for borrowing money.
+      </p>
+    </article>
+  </section>
+</div>
+`;
