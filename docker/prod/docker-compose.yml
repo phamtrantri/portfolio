@@ -3,6 +3,8 @@ services:
     build:
       context: ../../
       dockerfile: docker/prod/Dockerfile
+      args:
+        DOCKER_PLATFORM: linux/amd64
     image: web-service
     ports:
       - '3000:3000'
